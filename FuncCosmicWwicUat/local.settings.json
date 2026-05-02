@@ -1,0 +1,20 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage"                        : "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME"                   : "dotnet-isolated",
+
+    "AZURE_OPENAI_ENDPOINT"                      : "https://aif-wwic-uat-westus.openai.azure.com/",
+    "AZURE_OPENAI_MODEL"                         : "gpt-5.2",
+    "AZURE_OPENAI_API_VERSION"                   : "2024-12-01-preview",
+    "AZURE_OPENAI_USE_MANAGED_IDENTITY"          : "true",
+    "AZURE_OPENAI_MANAGED_IDENTITY_CLIENT_ID"    : "1e8f357b-bec7-41de-8965-471188c16a13",
+
+    "SQL_SERVER"                                 : "casesharddbsvr-uat.database.windows.net",
+    "SQL_DATABASE"                               : "CaseEnhancementCenterUAT",
+    "SQL_MANAGED_IDENTITY_CLIENT_ID"             : "1e8f357b-bec7-41de-8965-471188c16a13",
+
+    "MCP_SERVER_BASE_URL"                        : "https://app-cosmic-wwic-uat-eastus.azurewebsites.net",
+    "MCP_SERVER_AUDIENCE"                        : "https://app-cosmic-wwic-uat-eastus.azurewebsites.net"
+  }
+}
